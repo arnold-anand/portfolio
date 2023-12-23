@@ -345,7 +345,7 @@ function App() {
       <div class="relative w-full h-28 mt-10">
         <div class="absolute inset-0 bg-gradient-to-l from-[#f9e8ea] from-3% via-[#f09819] via-20% to-[#f793e2] to-90%">
         </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-transparent to-white"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent to-white "></div>
       </div>
     </div>
   );
