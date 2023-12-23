@@ -244,38 +244,109 @@ function App() {
         />
       </div>
 
-      <div className="md:flex items-center lg:px-36">
+      <div className="py-20 font-poppins md:flex items-center justify-between w-full lg:px-36">
         <div>
-          <img className="max-w-sm" src="./images/studying.svg" alt="" />
+          <img className="max-w-[300px]" src="./images/studying.svg" alt="" />
         </div>
-      <div>
-        <div className="flex space-x-8 items-center p-5">
-          <img className="w-10" src="./images/hitachi-icon.svg" alt="" />
-          <div>
-            <div className="text-xs">June 2023 - July 2023</div>
-            <div>AI Intern</div>
-            <div className="text-sm">Hitachi Vantara, Hyderabad</div>
+        <div className="font-poppins">
+          <div className="flex space-x-8 items-center p-5">
+            <img className="w-10" src="./images/hitachi-icon.svg" alt="" />
+            <div>
+              <div className="text-xs">June 2023 - July 2023</div>
+              <div>AI Intern</div>
+              <div className="text-sm">Hitachi Vantara, Hyderabad</div>
+            </div>
+          </div>
+          <div className="flex space-x-8 items-center p-5">
+            <img className="w-10" src="./images/intel-icon.svg" alt="" />
+            <div>
+              <div className="text-xs">April 2023 - June 2023</div>
+              <div>AI Intern</div>
+              <div className="text-sm">
+                Intel Unnati Training Program Summer 2023, Virtual
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-8 items-center p-5">
+            <img
+              className="w-10"
+              src="https://viestories.com/wp-content/uploads/2022/05/f-72.jpg"
+              alt=""
+            />
+            <div>
+              <div className="text-xs">June 2022 - July 2022</div>
+              <div>Teaching Instructor</div>
+              <div className="text-sm">Camp K12, Remote</div>
+            </div>
+          </div>
+          <div className="flex space-x-8 items-center p-5">
+            <img
+              className="w-10"
+              src="https://karunya.edu/sites/default/files/img/home/KITS-EMBLEM.png.pagespeed.ce.hVclQGVmrR.png"
+              alt=""
+            />
+            <div>
+              <div className="text-xs">2020 - 2024</div>
+              <div>B.Tech, Computer Science and Engineering</div>
+              <div className="text-sm">
+                Karunya Institute of Technology and Sciences, Coimbatore
+              </div>
+            </div>
           </div>
         </div>
-        <div className="flex space-x-8 items-center p-5">
-          <img className="w-10" src="./images/intel-icon.svg" alt="" />
-          <div>
-            <div className="text-xs">April 2023 - June 2023</div>
-            <div>AI Intern</div>
-            <div className="text-sm">Intel Unnati Training Program Summer</div>
-          </div>
-        </div>
-        <div className="flex space-x-8 items-center p-5">
-          <img className="w-10" src="https://viestories.com/wp-content/uploads/2022/05/f-72.jpg" alt="" />
-          <div>
-            <div className="text-xs">June 2022 - July 2022</div>
-            <div>Teaching Instructor</div>
-            <div className="text-sm">Camp K12</div>
-          </div>
-        </div>
-      </div>
       </div>
 
+      {/* Connect */}
+      <div>
+        <div className="font-poppins text-center text-5xl font-extrabold flex justify-center md:justify-start md:px-20 mt-20">
+          Let's Connect!
+        </div>
+
+        <div className="px-6 font-poppins md:flex items-center md:flex-row-reverse justify-between">
+          <div>
+            <img className="max-w-[300px]" src="./images/studying.svg" alt="" />
+          </div>
+          <div className="md:p-10 flex flex-col space-y-6">
+            <div className="text-justify">
+              I'm always looking to make a new connections, so drop me an email
+              or shoot me a DM on Linkedin.
+            </div>
+            <div>
+              Lets's explore the possibilities and see where it takes us!
+            </div>
+            <div className="flex items-center space-x-5">
+              <a href="mailto:arnoldanand.work@gmail.com">
+                <button className="flex space-x-3 items-center bg-[#f79709] p-2 rounded-md">
+                  <span className="text-white">Contact Me</span>
+                  <span className="text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/arnold-anand/"><img className="w-8" src="./images/linkedin.svg" alt="" /></a>
+              <a target="_blank" href="https://github.com/arnold-anand"><img className="w-8" src="./images/github-mark.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-full h-28 mt-10">
+        <div class="absolute inset-0 bg-gradient-to-l from-[#f9e8ea] from-3% via-[#f09819] via-20% to-[#f793e2] to-90%">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent to-white"></div>
+      </div>
     </div>
   );
 }
