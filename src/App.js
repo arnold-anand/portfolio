@@ -182,7 +182,7 @@ function App() {
             <img className="w-full rounded" src="icraae.png" alt="" />
             <div className="text-xl font-roboto p-2">ICRAAE'24 Website <span className="p-[3px] px-2 bg-slate-300 text-xs rounded">React JS</span></div>
             <div className="px-2 text-justify">Developed a multi-page web application for ICRAAE-2024 organized by the
-Dept. Aerospace Engineering</div>
+Dept. Aerospace Engineering at KITS</div>
             <div className="flex items-center justify-between py-3">
               <a target="_blank" href="https://karunya.edu/daero/icraae-24/">
               <button className="flex items-center justify-center p-2 border rounded space-x-2">
