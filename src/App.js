@@ -304,7 +304,7 @@ function App() {
 
         <div className="px-6 font-poppins md:flex items-center md:flex-row-reverse justify-between">
           <div>
-            <img className="max-w-[300px]" src="./images/studying.svg" alt="" />
+            <img className="max-w-[300px]" src="./images/shaking-hands.svg" alt="" />
           </div>
           <div className="md:p-10 flex flex-col space-y-6">
             <div className="text-justify">
